@@ -1,0 +1,67 @@
+
+header{
+    background-color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    color:  rgb(42, 89, 165);
+    font-weight: bold;
+    font-size: 32px;
+    align-items: center;
+    padding: 40px;
+    justify-content: center;
+}
+.Sec-Principal{
+    background-color: rgb(42, 89, 165);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.Titulos {
+    padding-left: 3%  ;
+    padding-right: 5%;
+}
+
+.Videos{
+    padding-right: 5%;
+}
+
+body{
+    background-color: black;
+    margin: 0px;
+}
+h1{
+    color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+p{
+    color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+img{
+    height: 200px;
+}
+.Catalogo-Videos{
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+}
+.Sec-Catalogo{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    padding-top: 30px;
+    background-color: rgb(6, 27, 60);
+    padding-left: 40px ;
+    padding-right: 40px;
+}
+.Catalogo-Videos img{
+    opacity: 0.5;
+}
+.Catalogo-Videos img:hover{
+    opacity: 1.0;
+    border: 2px solid wheat;
+}
+.Sec-Catalogo h2{
+        
+}
